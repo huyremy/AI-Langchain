@@ -1,4 +1,5 @@
-!pip install langchain
+#!pip install langchain
+
 from langchain.document_loaders import UnstructuredURLLoader
 from langchain.document_loaders import PDFMinerLoader
 from langchain.document_loaders import TextLoader
